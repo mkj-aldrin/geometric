@@ -1,0 +1,9 @@
+{
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

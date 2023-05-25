@@ -1,0 +1,35 @@
+@import "reset";
+@import "base";
+
+[data-flex="vertical"] {
+  flex-direction: column;
+}
+
+x-root {
+  padding: 4px;
+  height: 100%;
+  display: grid;
+}
+
+x-list {
+  display: flex;
+  gap: 4px;
+}
+
+x-chain {
+  display: grid;
+}
+
+x-chain,
+x-module {
+  padding: 2px;
+  border: 1px currentColor solid;
+}
+
+x-module {
+  user-select: none;
+}
+
+[data-drag-dragged="true"] {
+  color: orange;
+}
